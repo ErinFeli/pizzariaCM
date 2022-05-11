@@ -1,0 +1,36 @@
+.header-container {
+    padding: 32px 15px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header-logo{
+        display: flex;
+        align-items: center;
+
+        .logo-div {
+            display: flex;
+            align-items: center;
+            
+            h3{
+                font-size: 18px;
+                font-weight: 800;
+                letter-spacing: 0.1px;
+            }
+
+            .logo-svg {
+                width: 40px;
+            }
+        }
+    }
+    
+
+    .delivery-button {
+        display: flex;
+        
+        align-items: center;
+
+        color: var(--primary-color);
+    }
+}
+
